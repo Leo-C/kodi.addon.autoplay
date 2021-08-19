@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	<setting label="32001" type="lsep"/>
+	<setting id="playlist_en" type="bool" label="32002" default="true" />
+	<setting id="playlist_file" type="file" label="32003" default="/storage/.kodi/userdata/auto.m3u" enable="eq(-1,true)" />
+	
+	<setting label="32011" type="lsep"/>
+	<setting id="slideshow_en" type="bool" label="32012" default="true" />
+	<setting id="slideshow_dir" type="folder" label="32013" default="/storage/.kodi/userdata/" enable="eq(-1,true)" />
+	<setting id="slideshow_subdir" type="bool" label="32014" enable="eq(-2,true) + !eq(-1,)" />
+	<setting id="slideshow_random" type="bool" label="32015" enable="eq(-3,true) + !eq(-2,)" />
+	
+	<!--setting label="32021" type="lsep" /-->
+	<!--setting id="test" type="action" label="32022" action="RunAddon(script.video.autoplay)" /-->
+</settings>

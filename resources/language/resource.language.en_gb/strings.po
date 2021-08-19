@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kodi Addons\n"
+"Report-Msgid-Bugs-To: leo-c@github.com\n"
+"POT-Creation-Date: 2021-07-26 12:30+02\n"
+"PO-Revision-Date: 2021-07-26 12:30+02\n"
+"Last-Translator: leo-c\n"
+"Language-Team: English (https://kodi.weblate.cloud/languages/en_gb/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+
+msgctxt "#32001"
+msgid "Audio / Video"
+msgstr ""
+
+msgctxt "#32002"
+msgid "Enable Audio / Video Media"
+msgstr ""
+
+msgctxt "#32003"
+msgid "Media file (.mp4, .mp3, ...) or Playlist (.m3u, .pls, .strm, .xsp)"
+msgstr ""
+
+msgctxt "#32011"
+msgid "Slideshow"
+msgstr ""
+
+msgctxt "#32012"
+msgid "Enable Slideshow"
+msgstr ""
+
+msgctxt "#32013"
+msgid "Slideshow folder"
+msgstr ""
+
+msgctxt "#32014"
+msgid "Use subfolders"
+msgstr ""
+
+msgctxt "#32015"
+msgid "Play images in random order"
+msgstr ""
+
+msgctxt "#32021"
+msgid "Test"
+msgstr ""
+
+msgctxt "#32022"
+msgid "Start reproduction"
+msgstr ""
