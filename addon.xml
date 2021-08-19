@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="script.video.autoplay" version="0.1.0" name="Loop SlideShow / Video Player" provider-name="leo-c">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="addon.py">
+	<provides>image audio video</provides>
+  </extension> 
+  <extension point="xbmc.addon.metadata">
+	<summary lang="en_GB">Loop SlideShow / Video Player</summary>
+	<summary lang="it_IT">SlideShow / Video Player a rotazione</summary>
+	<description lang="en_GB">Start a Video in loopback or an infinite SlideShow</description>
+	<description lang="it_IT">Avvia un Video in loop o uno SlideShow continuo</description>
+	<platform>all</platform>
+	<license>GPL v3</license>
+	<source>http://github.com/leo-c/script.video.autoplay/tree/py2</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+	<news>
+v1.0.0  (2019-03-03)
+- Initial release as old autoplay.py
+
+v1.1.0  (2019-11-25)
+- Added Slideshow
+
+v2.0.0  (2021-07-29)
+- Refactor as Addon (Addon Settings substitute configuration files)
+	</news>
+  </extension> 
+</addon>

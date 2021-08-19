@@ -1,0 +1,8 @@
+v1.0.0  (2019-03-03)
+	- Initial release as old autoplay
+
+v1.1.0  (2019-11-25)
+	- Added Slideshow
+
+v2.0.0  (2021-07-29)
+	- Refactor as Addon (Addon Settings substitute configuration files)
