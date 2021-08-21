@@ -41,6 +41,16 @@ This Addon was tested on following platfoms (see branch compatibility on GitHub)
 If anyone tests this Addon on other HW platforms / SW distribution, I'll insert into list
 
 
+## Installation
+
+Unless this addon was not included in a Kodi repository, must be installed manually.
+To do so:
+1. download this github repository as .zip
+2. transfer file on host with Kodi (via network, USB memory, etc.)
+3. in addon section choose "Install from .zip file" and browse file location
+   (remember - if not asked - to enable installation of .zip addon from Setings -> Addon -> unknown source)
+
+
 ## Localization
 
 If you want to add other localizations, you're welcome!
