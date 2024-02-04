@@ -4,23 +4,22 @@ from resources.lib.autoplay import play, show
 
 
 #read config values
-playlist_en = xbmcaddon.Addon().getSetting("playlist_en")
+playlist_en:str = xbmcaddon.Addon().getSetting("playlist_en")
+playlist_file:str = ""
 if playlist_en == "true":
     playlist_file = xbmcaddon.Addon().getSetting("playlist_file")
-else:
-    playlist_file = ""
 
-slideshow_en = xbmcaddon.Addon().getSetting("slideshow_en")
+slideshow_en:str = xbmcaddon.Addon().getSetting("slideshow_en")
 if slideshow_en == "true":
-    slideshow_dir = xbmcaddon.Addon().getSetting("slideshow_dir")
+    slideshow_dir:str = xbmcaddon.Addon().getSetting("slideshow_dir")
     
-    slideshow_subdir_str = xbmcaddon.Addon().getSetting("slideshow_subdir")
-    slideshow_subdir = False #default
+    slideshow_subdir_str:str = xbmcaddon.Addon().getSetting("slideshow_subdir")
+    slideshow_subdir:bool = False #default
     if slideshow_subdir_str == "true":
         slideshow_subdir = True
 
-    slideshow_random_str = xbmcaddon.Addon().getSetting("slideshow_random")
-    slideshow_random = False #default
+    slideshow_random_str:str = xbmcaddon.Addon().getSetting("slideshow_random")
+    slideshow_random:bool = False #default
     if slideshow_random_str == "true":
         slideshow_random = True
 else:

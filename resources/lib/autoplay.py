@@ -4,7 +4,7 @@ from os.path import isfile, isdir
 import xbmc
 
 
-def play(playlist_file): # ... audio/video files!
+def play(playlist_file: str) -> bool: # ... audio/video files!
     if playlist_file != '' and isfile(playlist_file):
         xbmc.log("[script.video.autoplay] Starting playlist '%s'" % playlist_file, xbmc.LOGINFO)
         xbmc.executebuiltin('PlayMedia("%s")' % playlist_file)
@@ -14,7 +14,7 @@ def play(playlist_file): # ... audio/video files!
         return False
 
 
-def show(slideshow_dir, subdirs, random): # ... photos!
+def show(slideshow_dir: str, subdirs: bool, random: bool) -> bool: # ... photos!
     if slideshow_dir != '' and isdir(slideshow_dir):
         options = ''
         
