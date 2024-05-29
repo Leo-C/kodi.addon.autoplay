@@ -1,4 +1,3 @@
-#by Leonardo Cocco - 20191125
 from os import listdir
 from os.path import isfile, isdir
 import xbmc
@@ -7,7 +6,7 @@ import xbmc
 def play(playlist_file: str) -> bool: # ... audio/video files!
     if playlist_file != '' and isfile(playlist_file):
         xbmc.log("[script.video.autoplay] Starting playlist '%s'" % playlist_file, xbmc.LOGINFO)
-        xbmc.executebuiltin('PlayMedia("%s")' % playlist_file)
+        xbmc.executebuiltin('PlayMedia("%s", noresume)' % playlist_file)
         xbmc.executebuiltin("PlayerControl(RepeatAll)") #loop media player
         return True
     else:
